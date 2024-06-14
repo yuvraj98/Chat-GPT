@@ -1,13 +1,13 @@
-import google from "../../assets/google.png";
-import atlassian from "../../assets/atlassian.png";
-import slack from "../../assets/slack.png";
-import dropbox from "../../assets/dropbox.png";
-import shopify from "../../assets/shopify.png";
+import google from "../../assets/google (2).png";
+import apple from "../../assets/apple.png";
+import meta from "../../assets/meta.png";
+import amazon from "../../assets/amazon.png";
+import netflix from "../../assets/netflix.png";
 
 export {
     google,
-    slack,
-    atlassian,
-    dropbox,
-    shopify
+    meta,
+    apple,
+    netflix,
+    amazon
 }

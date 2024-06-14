@@ -6,22 +6,22 @@ import { ImTree } from "react-icons/im";
 
 const coursesData = [
   {
-    heading: "Chatbots",
-    description: "Simulate human-like conversations using Natural Language Processing (NLP).",
+    heading: "Fundamentals",
+    description: "Learn foundational concepts of AI tools applied to blogging, including basic NLP techniques and platform capabilities.",
     level: "Beginner",
-    lessionNumber: 12,
+    lessionNumber: "*",
   },
   {
-    heading: "Knowledgebase",
-    description: "GPT-3's deep learning neural network is a model with over 175 billion machine learning parameters.",
+    heading: "Advanced",
+    description: "Explore advanced applications of AI tools in blogging, leveraging deep learning models like GPT-3 for content creation and management.",
     level: "Intermediate",
-    lessionNumber: 20,
+    lessionNumber: "*",
   },
   {
-    heading: "Education",
-    description: "Artificial Intelligence (AI) has the potential to address some of the biggest challenges in education today.",
+    heading: "Specialization",
+    description: " Discover specialized topics in AI-powered blogging, addressing industry-specific challenges and innovative strategies.",
     level: "Advanced",
-    lessionNumber: 15,
+    lessionNumber: "*",
   },
 ];
 
@@ -40,7 +40,7 @@ const CourseCard = () => {
           } text-richblack-25 h-[300px] box-border cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50`}
           onClick={() => setCurrentCard(course.heading)}
         >
-          <div className="border-b-[2px] border-richblack-400 border-dashed h-[80%] p-6 flex flex-col gap-3">
+          <div className="border-b-[2px] border-richblack-500 border-dashed h-[80%] p-6 flex flex-col gap-3">
             <div
               className={`${
                 currentCard === course.heading && "text-richblack-800"

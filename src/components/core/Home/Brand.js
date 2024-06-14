@@ -1,12 +1,12 @@
 import React from 'react';
-import { google, slack, atlassian, shopify, dropbox } from "../../data/imports";
+import { google, meta, apple, amazon, netflix } from "../../data/imports";
 
 const images = [
-  { src: slack, alt: "Slack" },
-  { src: atlassian, alt: "Atlassian" },
+  { src: apple, alt: "apple" },
+  { src: meta, alt: "meta" },
   { src: google, alt: "Google" },
-  { src: shopify, alt: "Shopify" },
-  { src: dropbox, alt: "Dropbox" },
+  { src: amazon, alt: "amazon" },
+  { src: netflix, alt: "netflix" },
 ];
 
 const Brand = () => {

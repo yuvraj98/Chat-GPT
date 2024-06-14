@@ -7,12 +7,12 @@ import Possiblity from '../components/core/Home/Possiblity'
 import Blog from '../components/core/Home/Blog'
 import Footer from '../components/core/Home/Footer'
 import Feature from '../components/core/Home/Feature'
-import Navbar from '../components/common/Navbar'
+// import Navbar from '../components/common/Navbar'
 const Home = () => {
   return (
     <div className="">
         <div className="gradient__bg">
-        <Navbar></Navbar>
+        
         <Header/>
         </div>
         <Brand/>
